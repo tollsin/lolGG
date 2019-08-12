@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="50dp"
+        android:layout_height="70dp"
+        android:background="#f23132"
+        android:id="@+id/ri_result"
+        >
+
+        <TextView
+            android:id="@+id/tv_game_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="승" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_game_result"
+            android:layout_centerInParent="true"
+            android:id="@+id/tv_tume"
+            android:text="---" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_tume"
+            android:id="@+id/tv_time"
+            android:layout_centerHorizontal="true"
+            android:textSize="9dp"
+            android:text="120:01" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp">
+
+
+        <ImageView
+            android:id="@+id/champ_img"
+            android:layout_width="29dp"
+            android:layout_height="36dp"
+             />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_toRightOf="@+id/champ_img"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/spel_li">
+            <ImageView
+                android:background="#f32342"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/spel_one"
+
+                />
+            <ImageView
+                android:background="#23C2F3"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:id="@+id/spel_two"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="2dp"
+            android:layout_toRightOf="@+id/spel_li"
+            android:id="@+id/rune_li">
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginBottom="5dp"
+                android:background="#000000"
+                android:id="@+id/rune_one"
+                />
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="#000000"
+                android:id="@+id/rune_two"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/rune_li"
+            android:layout_marginLeft="15dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_kill"
+                    android:text="9 "/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  /   "/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/tv_death"
+                    android:layout_height="wrap_content"
+                    android:text="30 "/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  /   "/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_asi"
+                    android:text="30"/>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="킬관려 67%"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentRight="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_game_date"
+                android:text="2019.07.27"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/champ_img"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:id="@+id/img_item0"
+                />
+
+            <ImageView
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:background="#00FF0D"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/img_item1"
+                />
+
+            <ImageView
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:background="#3F51B5"
+                android:id="@+id/img_item2"
+                android:layout_marginLeft="5dp"/>
+
+            <ImageView
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:background="#3F51B5"
+                android:id="@+id/img_item3"
+                android:layout_marginLeft="5dp"/>
+
+            <ImageView
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:background="#3F51B5"
+                android:id="@+id/img_item4"
+                android:layout_marginLeft="5dp"/>
+
+            <ImageView
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:background="#3F51B5"
+                android:id="@+id/img_item5"
+                android:layout_marginLeft="5dp"/>
+
+            <ImageView
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:layout_marginLeft="5dp"
+                android:background="#3F51B5" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
