@@ -9,7 +9,6 @@ import androidx.fragment.app.FragmentActivity;
 
 public class UserInformationRequest extends AsyncTask<String , Void,String> {
 
-    String api_key = "RGAPI-911d425e-2410-49f1-98f9-410f89f44479";
     String url_ ="https://kr.api.riotgames.com/";
 
     ProgressDialog asyncDialog ;

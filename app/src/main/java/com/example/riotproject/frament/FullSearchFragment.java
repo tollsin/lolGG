@@ -53,7 +53,7 @@ public class FullSearchFragment extends Fragment implements View.OnClickListener
 
     private boolean isLoding = false;
 
-    final static String  API_KEY = "RGAPI-0e4da930-8bb8-40b8-aa89-b667168c1f32";
+    final static String  API_KEY = "####";
     public FullSearchFragment() {
         // Required empty public constructor
     }
